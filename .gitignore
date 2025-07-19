@@ -1,0 +1,29 @@
+# === Node.js (Backend - server/) ===
+server/node_modules/
+server/npm-debug.log
+server/yarn-error.log
+server/.env
+server/.env.*
+
+# === Prisma (server/) ===
+server/prisma/dev.db
+server/prisma/migrations/
+
+# === React (Frontend - client/) ===
+client/node_modules/
+client/build/
+client/.env
+client/.env.*
+
+# === Build Artifacts (Optional global) ===
+**/build/
+**/dist/
+**/coverage/
+
+# === Docker ===
+*.local
+docker-compose.override.yml
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
